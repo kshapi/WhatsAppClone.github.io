@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Style Files -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Communities-style.css" />
+    <link rel="stylesheet" href="chats-style.css" />
+    <link rel="stylesheet" href="status-style.css" />
+  <link rel="stylesheet" href="call-style.css" />
+  <link rel="stylesheet" href="page-style.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/06aa983bed.js" crossorigin="anonymous"></script>
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <div class="app">
+      <!--Navbar-->
+      <nav class="navbar">
+        <h3>WhatsApp</h3>
+        <div class="list">
+          <div class="cummin item">
+            <input type="checkbox" id="icon" />
+            <label for="icon">
+              <i class="fa-solid fa-users"></i>
+            </label>
+          </div>
+          <div class="item-list">
+            <div class="item">
+              <input type="checkbox" id="chat" />
+              <label for="chat">Chat</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="status" />
+              <label for="status">Status</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="calls" />
+              <label for="calls">Calls</label>
+            </div>
+          </div>
+          <span class="scroll"></span>
+        </div>
+      </nav>
+      <main class="content">
+        <div class="all">
+          <!-- Communities -->
+          <section class="communities">
+            <img src="Communities.png" />
+            <div class="text">
+              <h3>Introducing communities</h3>
+              <p>Easily organise your ralated groups and send announcements. Now, your communities like neighbuorhoods or schools can have there own space</p>
+            </div>
+            <button type="button" class="btn">Start your community</button>
+          </section>
+        <!-- Chat Section -->
+          <section class="chats">
+            <div class="freind-list">
+              <div class="freind">
+                <div class="pic">
+                  <img src="2.jpeg" />
+                </div>
+                <div class="text">
+                  <div class="name-row">
+                    <h4 class="name">Kshapi</h4>
+                    <p class="date">
+                      today
+                    </p>
+                  </div>
+                  <div class="msgs">
+                    <img src="rec.png" class="rec" />
+                  </div>
+                </div>
+              </div>
+            
+              <div class="freind">
+                <div class="pic">
+                  <img src="5.jpeg" />
+                </div>
+                <div class="text">
+                  <div class="name-row">
+                    <h4 class="name">Flooki</h4>
+                    <p class="date new">
+                      yesterday
+                    </p>
+                  </div>
+                  <div class="msgs">
+                    <img src="misscall.png" class="misscall" />
+                    <span class="unread">3</span>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="freind">
+                <div class="pic">
+                  <img src="1.jpeg" />
+                </div>
+                <div class="text">
+                  <div class="name-row">
+                    <h4 class="name">Dashti</h4>
+                    <p class="date">
+                      10/20/2023
+                    </p>
+                  </div>
+                  <div class="msgs">
+                    <span class="msg">😍😍</span>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="freind">
+                <div class="pic">
+                  <img src="7.jpeg" />
+                </div>
+                <div class="text">
+                  <div class="name-row">
+                    <h4 class="name">Albaloshi</h4>
+                    <p class="date">
+                      15/01/2023
+                    </p>
+                  </div>
+                  <div class="msgs">
+                    <span class="msg">Halkn jan</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="add-friend">
+              <i class="bi bi-chat-left-text-fill"></i>
+            </div>
+          </section>
+        <!-- Story Section-->
+          <section class="status">
+            <div class="own">
+              <div class="pic">
+                <img src="3.jpeg" />
+              </div>
+              <div class="text">
+                <h4>My Status</h4>
+                <p>Tap to add status update </p>
+              </div>
+            </div>
+            <span>Recent updates</span>
+            <div class="status-list">
+              <div class="story">
+                <div class="pic">
+                  <img src="2.jpeg" />
+                </div>
+                <div class="text">
+                  <h4 class="name">Kshapi</h4>
+                  <p class="time">30 minutes ago</p>
+                </div>
+              </div>
+            
+              <div class="story">
+                <div class="pic">
+                  <img src="1.jpeg" />
+                </div>
+                <div class="text">
+                  <h4 class="name">Dshti</h4>
+                  <p class="time">10 minutes ago</p>
+                </div>
+              </div>
+            
+              <div class="story">
+                <div class="pic">
+                  <img src="5.jpeg" />
+                </div>
+                <div class="text">
+                  <h4 class="name">Flooki</h4>
+                  <p class="time">15 minutes ago</p>
+                </div>
+              </div>
+            
+              <div class="story">
+                <div class="pic">
+                  <img src="7.jpeg" />
+                </div>
+                <div class="text">
+                  <h4 class="name">Albaloshi</h4>
+                  <p class="time">55 minutes ago</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="add-story">
+              <div class="pen">
+                <i class="fa-solid fa-pen"></i>
+              </div>
+              <div class="camera">
+                <i class="bi bi-camera-fill"></i>
+              </div>
+            </div>
+          </section>
+        <!-- Call Section -->
+        <section class="calls">
+          <div class="link">
+            <div class="pic">
+              <i class="bi bi-link-45deg"></i>
+            </div>
+            <div class="text">
+              <h4>Create call link</h4>
+              <p>Share a link for your whatsapp call</p>
+            </div>
+          </div>
+          <span>Recent</span>
+          <div class="call-list">
+            <div class="call">
+              <div class="pic">
+                <img src="1.jpeg" />
+              </div>
+              <div class="text">
+                <h4 class="name">Dashti</h4>
+                <p class="time">
+                  <i class="bi bi-arrow-down-left"></i>
+                  3 June, 6:30 pm
+                </p>
+              </div>
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+            </div>
+          
+            <div class="call">
+              <div class="pic">
+                <img src="2.jpeg" />
+              </div>
+              <div class="text">
+                <h4 class="name">Kshapi</h4>
+                <p class="time">
+                  <i class="bi bi-arrow-up-right"></i>
+                  10 May, 9:30 pm
+                </p>
+              </div>
+              <div class="icon">
+                <i class="fa-solid fa-video"></i>
+              </div>
+            </div>
+          
+            <div class="call">
+              <div class="pic">
+                <img src="5.jpeg" />
+              </div>
+              <div class="text">
+                <h4 class="name">Flooki</h4>
+                <p class="time">
+                  <i class="bi bi-arrow-down-left"></i>
+                  15 May, 10:30 am
+                </p>
+              </div>
+              <div class="icon">
+                <i class="fa-solid fa-video"></i>
+              </div>
+            </div>
+          
+            <div class="call">
+              <div class="pic">
+                <img src="7.jpeg" />
+              </div>
+              <div class="text">
+                <h4 class="name">Albaloshi</h4>
+                <p class="time">
+                  <i class="bi bi-arrow-up-right"></i>
+                  1 May, 1:30 pm
+                </p>
+              </div>
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+            </div>
+          
+          </div>
+          
+          <div class="add-call">
+            <i class="bi bi-telephone-plus-fill"></i>
+          </div>
+        </section>
+        </div>
+      </main>
+      
+      
+      <section class="page">
+        <!-- Every Thing Fetch with Js -->
+      </section>
+    </div>
+    <span class="owner">Made By Kshapi</span>
+    <!--SCRIPT-->
+  <script src="script.js"></script>
+</body>
+</html>

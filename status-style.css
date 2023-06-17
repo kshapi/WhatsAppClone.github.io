@@ -1,0 +1,114 @@
+.status {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+  position: relative;
+}
+.status .own, .status-list .story{
+  width: 87%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.own .pic, .story .pic {
+  height: 47px;
+  width: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+.own .pic img, .story .pic img {
+  height: 47px;
+  width: 47px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.own .pic::before {
+  content: "+";
+  height: 18px;
+  width: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: var(--text-color);
+  border-radius: 30px;
+  border: 1.5px solid #fff;
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  font-size: 23px;
+}
+.status .text {
+  margin-left: 10px;
+}
+.status .text p {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 1px;
+}
+.status span {
+  width: 87%;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 550;
+  font-size: 13.5px;
+}
+.status .status-list {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px 0px;
+  margin-top: 10px;
+}
+.status .status-list img {
+  border: 1.5px solid #fff;
+}
+.status-list .pic::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  position: absolute;
+  border: 2px solid #6CD698;
+}
+.add-story {
+  height: 100px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  bottom: 17px;
+  right: 17px;
+}
+.status .pen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37px;
+  width: 37px;
+  background: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.6);;
+  border-radius: 50%;
+}
+.status .camera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background: var(--primary-color);
+  color: var(--text-color);
+  font-size: 22px;
+  border-radius: 50%;
+}

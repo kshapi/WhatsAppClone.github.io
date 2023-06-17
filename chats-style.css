@@ -1,0 +1,108 @@
+.chats {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.chats .freind-list {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px 0px;
+  margin-top: 10px;
+}
+.freind {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 12px;
+}
+.freind .pic {
+  height: 47px;
+  width: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+.freind .pic img {
+  height: 47px;
+  width: 47px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.freind .text {
+  width: 100%;
+  margin-left: 10px;
+}
+.text .name-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text .msgs {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 3px;
+}
+.text .msgs .rec {
+  width: 67px;
+  height: 23px;
+  position: relative;
+  left: -7px;
+  top: 2px;
+}
+.text .date {
+  font-size: 12px;
+}
+.date.new {
+  color: var(--primary-color);
+}
+.text .misscall {
+  width: 125px;
+  height: 20px;
+}
+.msgs .msg {
+  font-size: 14px;
+  font-weight: 500;
+}
+.new-msg {
+  height: 30px;
+  width: 40px;
+  background: red;
+}
+.msgs .unread {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 19px;
+  width: 19px;
+  background: var(--primary-color);
+  color: var(--text-color);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 13.5px;
+}
+.add-friend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 17px;
+  right: 17px;
+  background: var(--primary-color);
+  color: var(--text-color);
+  font-size: 19px;
+  border-radius: 50%;
+}

@@ -1,0 +1,33 @@
+.communities {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.communities img {
+  width: 180px;
+  margin-top: 20px;
+}
+.communities .text {
+  text-align: center;
+  margin-top: 7px;
+  padding: 0px 10px;
+}
+.communities .text p {
+  margin-top: 7px;
+  color: rgba(0, 0, 0, 0.3);
+  line-height: 18px;
+}
+.communities .btn {
+  width: 260px;
+  height: 35px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  background: var(--primary-color);
+  color: var(--text-color);
+}
