@@ -81,6 +81,9 @@ nav .list input {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
+::-webkit-scrollbar {
+  width: 0;
+}
 .content .all {
   height: 100%;
   width: 1210px;
